@@ -1,5 +1,6 @@
-import type { CSSProperty } from './CSSProperties';
-const properties: CSSProperty[] = [
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+const properties = [
   {
     property: '--*',
     url: 'https://drafts.csswg.org/css-variables/#propdef-',
@@ -10027,5 +10028,4 @@ const properties: CSSProperty[] = [
     title: 'Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification',
   },
 ];
-
-export default properties;
+exports.default = properties;

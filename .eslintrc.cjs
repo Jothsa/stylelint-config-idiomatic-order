@@ -8,7 +8,7 @@ module.exports = {
     // 'plugin:@typescript-eslint/re'
     'prettier',
   ],
-  plugins: [ '@typescript-eslint'],
+  plugins: ['@typescript-eslint'],
   ignorePatterns: ['*.cjs'],
   parserOptions: {
     sourceType: 'module',
