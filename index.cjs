@@ -1,5 +1,5 @@
-function trbl(prefix?: string) {
-  const rules: string[] = [];
+function trbl(prefix) {
+  const rules = [];
 
   if (prefix) {
     rules.push(prefix);
@@ -16,27 +16,27 @@ function trbl(prefix?: string) {
   ]);
 }
 
-function startEnd(prefix: string) {
+function startEnd(prefix) {
   return [prefix + "-start", prefix + "-end"];
 }
 
-function minMax(suffix:string) {
+function minMax(suffix) {
   return [suffix, "min-" + suffix, "max-" + suffix];
 }
 
-function inlineBlock(prefix: string) {
+function inlineBlock(prefix) {
   return [prefix + "-inline", prefix + "-block"];
 }
 
-function logical(prop: string) {
+function logical(prop) {
   const propsL = logical(prop);
 }
 
-function pos(prop: string) {
+function pos(prop) {
   const propLog = logical(prop);
 }
 
-function border(infix?: string) {
+function border(infix) {
   if (infix) {
     infix = "-" + infix;
   } else {
@@ -52,7 +52,7 @@ function border(infix?: string) {
   ];
 }
 
-const cssModules: ConcatArray<string> = [].concat(["composes"]);
+const cssModules = [].concat(["composes"]);
 
 const reset = ["all"];
 
