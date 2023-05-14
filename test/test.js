@@ -21,7 +21,7 @@ function testOrder() {
   return stylelint
     .lint({
       code: fixture,
-      config: require(".."),
+      config: require("../index.cjs"),
       fix: true,
     })
     .then((result) => {
@@ -47,7 +47,7 @@ function testLogicalPropertiesOrder() {
   return stylelint
     .lint({
       code: fixture,
-      config: require(".."),
+      config: require("../index.cjs"),
       fix: true,
     })
     .then((result) => {
