@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "stylelint + idiomatic-css = ❤️",
   "scope": "jothsa",
-  "private": "false",
   "main": "index.js",
   "type": "module",
   "dependencies": {
