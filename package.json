@@ -2,7 +2,7 @@
   "name": "stylelint-config-idiomatic-order",
   "version": "0.0.1",
   "description": "stylelint + idiomatic-css = ❤️",
-  "scope": "jothsa",
+  "scope": "@jothsa",
   "main": "index.js",
   "type": "commonjs",
   "dependencies": {
