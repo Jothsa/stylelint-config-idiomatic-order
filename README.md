@@ -1,11 +1,19 @@
 # stylelint + idiomatic-css = ❤️
 
+This is a fork of the original. I updated it with logical properties (thanks to @JulienW) and other features/qol.
+
 Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order).
 
 ## Installation
 
 ```sh
-npm install --save-dev stylelint-config-idiomatic-order
+npm install --save-dev @jothsa/stylelint-config-idiomatic-order
+```
+
+Or use pnpm
+
+```sh
+pnpm add --D @jothsa/stylelint-config-idiomatic-order
 ```
 
 ## Usage
@@ -14,7 +22,7 @@ Set your stylelint config to:
 
 ```json
 {
-  "extends": "stylelint-config-idiomatic-order"
+  "extends": "@jothsa/stylelint-config-idiomatic-order"
 }
 ```
 
