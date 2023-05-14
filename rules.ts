@@ -15,6 +15,10 @@ const modifiers: string[] = [];
 
 const breakError = {};
 
+function filterProps(text: string, properties: string[]): string[] {
+  return properties.filter((p) => p.includes(text));
+}
+
 function alphabeticalNoMods(prop: string): string[] {
   let orderedProps: string[] = [];
   try {
