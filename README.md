@@ -1,6 +1,6 @@
 # stylelint + idiomatic-css = ❤️
 
-This is a fork of the original. I updated it with logical properties (thanks to @JulienW) and other features/qol.
+This is a fork of the original. I updated it with logical properties (thanks to @JulienW) and other features/qol. I have big plans, but we'll see if I end up implementing them.
 
 Order your styles based on [idiomatic-css](https://github.com/necolas/idiomatic-css#declaration-order).
 
