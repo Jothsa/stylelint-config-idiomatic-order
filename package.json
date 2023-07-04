@@ -1,6 +1,6 @@
 {
   "name": "@jothsa/stylelint-config-idiomatic-order",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "stylelint + idiomatic-css = ❤️",
   "scope": "@jothsa",
   "main": "index.js",
